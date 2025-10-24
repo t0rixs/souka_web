@@ -29,7 +29,7 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Image.asset('asset/souka_drop.png', height: 40),
       ),
-      body: SafeArea(child: ListView()),
+      body: SafeArea(child: ListView()), //
     );
   }
 }
